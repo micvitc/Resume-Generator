@@ -20,7 +20,7 @@ function Login() {
     <div className="maindiv">
       {/* <h1>resume generator</h1> */}
       <div className="heading">
-        <h1>resume generator</h1>
+        <h1 className="Title">Resume Generator</h1>
       </div>
       <table border="1" className="table">
         <tr>
