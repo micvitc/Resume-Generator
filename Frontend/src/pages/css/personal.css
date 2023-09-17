@@ -1,0 +1,66 @@
+.App {
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+    /* background-size: cover;
+    background-position: center;
+    position: relative;
+    background-color: lightblue; */
+  }
+  
+  /* form {
+    width: 500px;
+    margin: 0 auto;
+  }
+  
+  label {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+  }*/
+  
+  button {
+    background-color: rgb(36, 228, 36);
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+  } 
+.App
+{
+  display: flex;
+  flex-direction: column;
+ 
+}
+
+label
+{
+  display: flex;
+  flex-direction: column;
+}
+input {
+
+  margin-left: 30vw;
+  margin-right: 30vw;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5vw;
+  
+}
+
+@media (max-width:900px)
+{
+  input
+  {
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5vw;
+  }
+}

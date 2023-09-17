@@ -1,0 +1,61 @@
+.resume {
+    font-family: Arial, sans-serif;
+  }
+  
+  h1, h2 {
+    margin-top: 0;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 36px;
+  }
+  
+  h2 {
+    font-size: 24px;
+  }
+  
+  ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  .personal-details {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .education > li:before {
+    content: "▪";
+    margin-right: 5px;
+    color: #007bff;
+  }
+  
+  .skills > li:before {
+    content: "▪";
+    margin-right: 5px;
+    color: #28a745;
+  }
+  
+  .projects > li:before {
+    content: "▪";
+    margin-right: 5px;
+    color: #dc3545;
+  }
+  
+  .achievements > li:before {
+    content: "▪";
+    margin-right: 5px;
+    color: #ffc107;
+  }
+  
+  .work-experience > li:before {
+    content: "▪";
+    margin-right: 5px;
+    color: #17a2b8;
+  }
+  

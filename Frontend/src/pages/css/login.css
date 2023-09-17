@@ -1,0 +1,83 @@
+.body-login {
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+
+.container1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.card1 {
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  flex: 1;
+}
+
+.left-card1 {
+  background-color: rgb(209, 206, 206);
+  margin-right: 50px;
+}
+
+.right-card1 {
+  background-color: #f2f2f2;
+  margin-left: 50px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.heading {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.googlebutton {
+  border: none;
+  background-color: white;
+  cursor: pointer;
+}
+
+.googleimage {
+  width: 30px;
+  height: 30px;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+  .container1 {
+    flex-direction: column;
+  }
+
+  .card1 {
+    margin: 10px;
+  }
+
+  .left-card1 {
+    margin-right: 0;
+  }
+
+  .right-card1 {
+    margin-left: 0;
+  }
+}
+h3{
+  padding: 10px;
+}
